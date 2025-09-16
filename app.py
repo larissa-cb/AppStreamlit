@@ -1,3 +1,10 @@
+# importar
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.express as px
+import plotly.graph_objects as go
+
 # Configuración de la página
 st.set_page_config(
     page_title="Predictor de Deserción Universitaria - XGBoost",
@@ -462,7 +469,7 @@ else:
     st.header("ℹ️ Acerca del Modelo XGBoost")
     
     st.markdown("""
-    ## 🎓 Modelo Predictivo de Deserción Universitaria
+    ## 🎓 Modelo Predictivo of Deserción Universitaria
     
     **Algoritmo: XGBoost (Extreme Gradient Boosting)**
     - **Accuracy:** 93.5%
@@ -511,6 +518,7 @@ st.sidebar.info("""
 
 st.markdown("---")
 st.caption("© 2025 Sistema Predictivo de Deserción Universitaria | Modelo XGBoost 93.5% | Desarrollado con Streamlit")
+
 
 
 
