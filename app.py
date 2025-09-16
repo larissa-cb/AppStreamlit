@@ -22,11 +22,19 @@ app_mode = st.sidebar.radio(
 
 # Clase que simula el modelo XGBoost basado en los resultados reales
 class XGBoostSimulator:
-def init(self):
-self.class_names = ["🚨 Abandono", "⚠️ Enrolado", "✅ Graduado"]
-self.accuracy = 0.935
+    def __init__(self):  # ← AÑADIR 4 ESPACIOS AQUÍ
+
+
+
+        
+        self.class_names = ["🚨 Abandono", "⚠️ Enrolado", "✅ Graduado"]
+        self.accuracy = 0.935
 
 def predict(self, input_data):
+
+
+
+    
     """
     Simula el comportamiento del modelo XGBoost real basado en las variables más importantes
     """
@@ -511,4 +519,5 @@ F1-Score: 93.5%
 """)
 
 st.markdown("---")
+
 st.caption("© 2025 Sistema Predictivo de Deserción Universitaria | Modelo XGBoost 93.5% | Desarrollado con Streamlit")
