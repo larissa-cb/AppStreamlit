@@ -163,7 +163,6 @@ def predict(self, input_data):
 
 # Inicializar el simulador del modelo
 model = XGBoostSimulator()
-
 if app_mode == "Predicción Individual":
 st.header("👤 Predicción Individual Basada en XGBoost")
 with st.form("student_form"):
@@ -521,3 +520,4 @@ F1-Score: 93.5%
 st.markdown("---")
 
 st.caption("© 2025 Sistema Predictivo de Deserción Universitaria | Modelo XGBoost 93.5% | Desarrollado con Streamlit")
+
