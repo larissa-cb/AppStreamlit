@@ -1,4 +1,4 @@
 # App Streamlit
 Sistema Predictivo de Deserción Universitaria
 
-![Image Alt](image_url).
+![Image Alt](https://github.com/larissa-cb/predecirdenuevo/blob/main/Banner.png?raw=true)
